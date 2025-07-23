@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Consulta de Estudios Médicos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Consulta de Estudios Médicos</h1>
+    <p>Subí tu radiografía o resonancia y recibí una orientación médica general. Este servicio no reemplaza una consulta médica profesional.</p>
+    <form id="uploadForm">
+      <label for="fileInput">Seleccioná tu imagen médica</label>
+      <input type="file" id="fileInput" name="image" accept="image/*" required />
+
+      <label for="comments">Contanos tus síntomas o dudas</label>
+      <textarea id="comments" name="comments" rows="4" placeholder="Ej: dolor lumbar desde hace 3 semanas..."></textarea>
+
+      <button type="submit">Enviar consulta</button>
+    </form>
+    <div class="donate">
+      <p>Si querés apoyar este servicio, podés hacer una donación voluntaria:</p>
+      <a href="https://www.paypal.com/donate" target="_blank">Donar con PayPal</a>
+    </div>
+  </div>
+</body>
+</html>
