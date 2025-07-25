@@ -24,5 +24,13 @@
       <a href="https://www.paypal.com/donate" target="_blank">Donar con PayPal</a>
     </div>
   </div>
+  <script>
+  document.getElementById('uploadForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // evita que se recargue la página
+    alert('Consulta enviada correctamente. Gracias por tu envío.');
+   
+    // Aquí podrías agregar el código para subir la imagen a un servidor o procesarla
+  });
+</script>
 </body>
 </html>
